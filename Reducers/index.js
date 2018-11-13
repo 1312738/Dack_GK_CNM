@@ -1,14 +1,10 @@
-import { combineReducers } from 'redux';
-import { reducer as formReducer } from 'redux-form'
-import PostReducer from './PostReducer'
-import UserReducer from './UserReducer';
-import LoadingReducer from './LoadingReducer';
+import { combineReducers } from "redux";
+import { firebaseReducer } from "react-redux-firebase";
+import { firestoreReducer } from "redux-firestore";
 
 const rootReducer = combineReducers({
-  form: formReducer,
-  posts: PostReducer,
-  user: UserReducer,
-  loading: LoadingReducer
+  firebase: firebaseReducer,
+  firestore: firestoreReducer
 });
 
 export default rootReducer;
