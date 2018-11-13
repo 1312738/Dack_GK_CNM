@@ -14,12 +14,12 @@ import { reduxFirestore } from "redux-firestore";
 
 // Firebase config
 const firebaseConfig = {
-  apiKey: "AIzaSyCkyGjw4vdSlBEDpU3q7lHI6ooAy1kjQIk",
-  authDomain: "chat-group-tdk.firebaseapp.com",
-  databaseURL: "https://chat-group-tdk.firebaseio.com",
-  projectId: "chat-group-tdk",
-  storageBucket: "chat-group-tdk.appspot.com",
-  messagingSenderId: "551455828957"
+   apiKey: "AIzaSyCzgS9bE5XIzt3Ri-a2lylS4R7FiYm5ncM",
+    authDomain: "dackcnm.firebaseapp.com",
+    databaseURL: "https://dackcnm.firebaseio.com",
+    projectId: "dackcnm",
+    storageBucket: "",
+    messagingSenderId: "155063972041"
 };
 
 firebase.initializeApp(firebaseConfig);
